@@ -1,4 +1,4 @@
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitters import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
 loader = PyPDFLoader(r'D:\Langchain\text_spiltters\dl-curriculum.pdf')
